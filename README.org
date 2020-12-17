@@ -4,4 +4,4 @@
  2. =BeautifulSoup=
  3. =urllib=
 * Usage
-./download.py "url" "output_folder"
+python ./download.py "url" "output_folder"
