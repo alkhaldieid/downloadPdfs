@@ -16,8 +16,8 @@ def get_pdfs(url, folder_location):
         with open(filename, 'wb') as f:
             f.write(requests.get(urljoin(url,link['href'])).content)
 if __name__=="__main__":
-    url = sys.argv[0]
-    folder_location  = sys.argv[1]
+    url = sys.argv[1]
+    folder_location  = sys.argv[2]
     get_pdfs(url, folder_location)
 
     # url = 'http://hothle.com/book/book-1.html'
