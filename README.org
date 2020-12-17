@@ -1,0 +1,7 @@
+#+TITLE: Automatic PDF downloader 
+* Deps
+ 1. =requests=
+ 2. =BeautifulSoup=
+ 3. =urllib=
+* Usage
+./download.py "url" "output_folder"
